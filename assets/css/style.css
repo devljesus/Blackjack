@@ -1,0 +1,21 @@
+html,body{
+    margin: 0;
+    background-color: #2f4f30;
+    color: white;
+}
+.header-titulo{
+ text-align: center;
+ background-color: brown;
+ color: #fff;
+ padding: 10px;
+}
+.carta{
+    position: relative;
+    width: 15%;
+    left: 100px;
+    margin-left: -45px;
+
+}
+#jugador-computadora,#jugador-carta-1{
+height: 300px;
+}

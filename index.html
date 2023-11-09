@@ -1,18 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- añadir esto -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Blackjack</title>
 </head>
+
 <body>
-    
 
+    <header class="header-titulo">
+        <h1>Blackjack</h1>
+    </header>
+    <div class="row mt-2">
+        <div class="col text-center">
+            <button class="btn btn-danger">Nuevo Juego</button>
+            <button class="btn btn-primary">Pedir carta</button>
+            <button class="btn btn-primary">DEtener</button>
 
-<script src="./assets/js/app-juego.js"></script>
+        </div>
+    </div>
+    <div class="row container">
+        <div class="col">
+            <h2>Jugador 1 - <small>0</small></h2>
+            <div id="jugador-carta-1">
+                <img class="carta" src="./assets/cartas/2H.png" alt="">
+                <img class="carta" src="./assets/cartas/2H.png" alt="">
+                <img class="carta" src="./assets/cartas/2H.png" alt="">
+                <img class="carta" src="./assets/cartas/2H.png" alt="">
+                <img class="carta" src="./assets/cartas/2H.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="row container mt-2">
+        <div class="col">
+            <h2>Jugador computadora - <small>0</small></h2>
+            <div id="jugador-computadora">
+                <img class="carta" src="./assets/cartas/3H.png" alt="">
+                <img class="carta" src="./assets/cartas/3H.png" alt="">
+                <img class="carta" src="./assets/cartas/3H.png" alt="">
+                <img class="carta" src="./assets/cartas/3H.png" alt="">
+                <img class="carta" src="./assets/cartas/3H.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/app-juego.js"></script>
 
 </body>
+
 </html>
